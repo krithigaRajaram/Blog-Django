@@ -1,0 +1,254 @@
+/* styles.css */
+
+body {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+}
+/* styles.css */
+
+/* Navbar styles */
+.navbar {
+    background-color: #333;
+    color: white;
+    display: flex;
+    justify-content: space-between;
+    padding: 10px 20px;
+}
+
+.logo {
+    margin-right: auto;
+}
+
+.nav {
+    display: flex;
+    align-items: center;
+}
+
+.nav a {
+    color: white;
+    text-decoration: none;
+    margin-left: 20px;
+}
+
+.nav a:hover {
+    text-decoration: none;
+}
+
+/* Search bar styles */
+.control {
+    margin-left: auto;
+    display: flex;
+    align-items: center;
+    position: relative;
+}
+
+.input {
+    width: 200px;
+    padding: 5px 10px;
+    border: 1px solid #ccc;
+    border-radius: 20px; /* Rounded corners */
+}
+
+.icon {
+    padding: 5px;
+    position: absolute;
+    left: 10px; /* Adjust icon position */
+    color: #666; /* Icon color */
+}
+
+.input:focus {
+    outline: none;
+    border-color: #666; /* Border color on focus */
+}
+
+button {
+    background-color: #333;
+    color: white;
+    border: none;
+    padding: 5px 10px;
+    border-radius: 20px;
+    margin-left: 5px;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #555;
+}
+
+
+.container {
+    background-color: #f9f9f9;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    padding: 20px;
+    margin: 20px auto; /* Center align the box */
+    max-width: 600px; /* Set maximum width */
+    width: 100%; /* Set width to 100% */
+    box-sizing: border-box; /* Include padding and border in width calculation */
+}
+
+/* styles.css */
+
+.topic-name {
+    font-size: 24px;
+    color: #333;
+    margin-bottom: 10px;
+    text-decoration: none; /* Remove underline */
+    display: inline-block; /* Ensure the link behaves as a block element */
+}
+
+.title {
+    font-size: 24px;
+    color: #333;
+    margin-bottom: 5px;
+    text-decoration: none; /* Remove underline */
+    display: inline-block; /* Ensure the link behaves as a block element */
+}
+.subtitle {
+    font-size: 14px;
+    color: #666;
+    margin-bottom: 10px;
+    text-decoration: none; /* Remove underline */
+    display: inline-block; /* Ensure the link behaves as a block element */
+}
+
+.intro {
+    font-size: 16px;
+    color: #444;
+    line-height: 1.6;
+}
+
+
+/* styles.css */
+
+body {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+}
+
+.detail_container {
+    background-color: #fff;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    padding: 20px;
+    margin: 20px auto; /* Center align the box */
+    max-width: 800px; /* Set maximum width */
+    width: 90%; /* Set width to 90% */
+    box-sizing: border-box; /* Include padding and border in width calculation */
+}
+
+
+.detail_topic-name {
+    font-size: 28px;
+    color: #333;
+    margin-bottom: 10px;
+    text-align: center; /* Center align the text */
+}
+
+
+.detail_subtitle {
+    font-size: 14px;
+    color: #666;
+    margin-bottom: 10px;
+}
+
+.detail_intro {
+    font-size: 16px;
+    color: #444;
+    line-height: 1.6;
+    margin-bottom: 20px;
+}
+
+.body {
+    font-size: 16px;
+    color: #444;
+    line-height: 1.6;
+}
+
+
+
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f8f9fa;
+}
+
+.signup_div {
+    text-align: center;
+    margin-top: 50px;
+}
+
+.forms {
+    width: 400px;
+    margin: 0 auto;
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 5px;
+    box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+}
+
+.forms label {
+    font-weight: bold;
+    display: block;
+    margin-bottom: 5px;
+    color: #414448;
+}
+
+.forms input[type="text"],
+.forms input[type="password"] {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 10px;
+    border: 1px solid #ccc;
+    border-radius: 3px;
+    box-sizing: border-box; 
+}
+
+.forms p {
+    margin-top: 20px;
+    text-align: center;
+    font-size: 14px;
+    color: #666;
+}
+
+.forms p a {
+    text-decoration: none;
+    color: #020202;
+}
+
+.forms p a:hover {
+    text-decoration: underline;
+}
+
+
+.forms .error {
+    color: red;
+    margin-top: -10px;
+    margin-bottom: 10px;
+}
+
+.signup-button {
+    background-color: #414448;
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 3px;
+    cursor: pointer;
+}
+
+.signup-button:hover {
+    background-color: #030303;
+}
+
+@media (max-width: 768px) {
+    .forms {
+        width: 90%;
+    }
+}
